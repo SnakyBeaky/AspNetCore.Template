@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspNetCore.Template.API</name>
+    </assembly>
+    <members>
+        <member name="M:AspNetCore.Template.API.Startup.Main(System.String[])">
+            <summary>
+            Entry point of the API.
+            </summary>
+        </member>
+        <member name="M:AspNetCore.Template.API.Startup.ConfigureSerilog(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Serilog.LoggerConfiguration)">
+            <summary>
+            Configures Serilog to read the MinimumLevel overrides and other settins grom the appsettings.json.
+            </summary>
+        </member>
+        <member name="M:AspNetCore.Template.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds services to the container.
+            </summary>
+            <remarks>
+            This method gets called by the runtime.
+            </remarks>
+        </member>
+        <member name="M:AspNetCore.Template.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Configures the HTTP request pipeline.
+            </summary>
+            <remarks>
+            This method gets called by the runtime.
+            </remarks>
+        </member>
+        <member name="M:AspNetCore.Template.API.Startup.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds and configures swagger documentation generation.
+            </summary>
+        </member>
+        <member name="M:AspNetCore.Template.API.Startup.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configures the SwaggerUI and the endpoint to get the data from.
+            </summary>
+        </member>
+        <member name="M:AspNetCore.Template.API.Startup.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registers the custom dependencies of the application.
+            </summary>
+        </member>
+    </members>
+</doc>
