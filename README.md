@@ -1,2 +1,6 @@
 # AspNetCore.Template
-ASP.NET Core 2.2 scaffolding with Serilog and Swagger (Swashbuckle), ready to begin development
+ASP.NET Core 2.2 lightweight template.
+
+## Packages
+· `Serilog` (File + Console logging sinks)
+· `Swashbuckle` (Swagger API docs and UI)
